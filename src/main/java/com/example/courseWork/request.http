@@ -1,0 +1,7 @@
+POST http://localhost:8080/order
+Content-Type: application/json
+
+{
+  "email_to": "test@yandex.ru",
+  "order_goods": [1, 2, 3, 4]
+}
